@@ -39,6 +39,10 @@ public abstract class HogwartsStudents {
     }
 
     public void compareHogwarts(HogwartsStudents hogwartsStudents) {
-
+        int ability1 = ability();
+        int ability2 = hogwartsStudents.ability();
+        if (ability1 > ability2) {
+            System.out.println("Студент %s лучше, чем студент %s: %d VS %d%n", getName(),);
+        }
     }
 }
